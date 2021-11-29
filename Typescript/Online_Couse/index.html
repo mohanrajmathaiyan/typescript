@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <script src="script/main.js"></script>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <div id="mainpage">
+            <h2>Online Couse</h2>
+            <button onclick="Newuser()" >Newuser</button>
+            <button onclick="Existinguser()">Existinguser</button>
+        </div>
+
+        <div id="newuser">
+            <h2>New user Resistration</h2>
+            <label>Name</label><br><input type="text" id="Name"><br>
+            <label>Age</label><br><input type="text" id="Age"><br>
+            <label>Mobile_no</label><br><input type="text" id="Mobile_no"><br><br>
+            <button onclick="adduser()">Add</button>
+        </div>
+
+        <div id="existinguser">
+            <h2>welcome</h2>
+            <label>User Id</label><br><input type="text" id="userid"><br><br>
+            <button onclick="login()" >login</button>
+        </div>
+
+        <div id="options">
+            <h3>welcome</h3>
+            <button onclick="courses()" >Available courses</button><br><br><br>
+            <button onclick="Enrolled_courses()" >Enrolled courses</button>
+        </div>
+
+        <div id="selectcourse">
+            <h1>Online Couse section</h1><br>
+            <label>User Id</label><br><input type="text" id="user_id"><br><br>
+            <label>choose your Couse</label><br><br>
+            <select id="coursename">
+                <option value="C language">C language</option>
+                <option value="C++">C++</option>
+                <option value="JAVA">JAVA</option>
+                <option value="C sharp">C sharp</option>
+            </select><br><br>
+            <label>Enter days for completion of Couse</label><br><input type="number" id="days"><br><br><br>
+            <button onclick="Enroll()" >Enroll</button>
+        </div>
+
+        <div id="enrolledcourses">
+            <h3>Couse history</h3>
+            <p>Press check to show your cousre details and completion for those courses</p><br>
+            <button onclick="check()">check</button>
+            <label id="totaldays"></label>
+        </div>
+
+        
+    </body>
+</html>

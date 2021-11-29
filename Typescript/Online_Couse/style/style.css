@@ -1,0 +1,24 @@
+#mainpage
+{
+    display: block;
+}
+#newuser
+{
+    display: none;
+}
+#existinguser
+{
+    display: none;
+}
+#options
+{
+    display: none;
+}
+#selectcourse
+{
+    display: none;
+}
+#enrolledcourses
+{
+    display: none;
+}
